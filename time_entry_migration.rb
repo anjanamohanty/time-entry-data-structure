@@ -7,7 +7,7 @@
 # time_entries
 #   id,
 #   developer_id,
-#   project_id,
+#   task_id,
 #   date_of_work,
 #   length_of_work
 
@@ -17,7 +17,7 @@ class TimeEntryMigration < ActiveRecord::Migration
   def change
     create_table :time_entries do |t|
       t.integer :developer_id
-      t.integer :project_id
+      t.integer :task_id
       t.date :date_of_work
       t.decimal :length_of_work
     end
