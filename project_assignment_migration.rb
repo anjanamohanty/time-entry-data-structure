@@ -5,7 +5,7 @@
 #   developer_id,
 #   project_id
 
-require 'activerecord'
+require 'active_record'
 
 class ProjectAssignmentMigration < ActiveRecord::Migration
   def change

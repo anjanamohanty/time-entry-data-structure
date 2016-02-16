@@ -2,7 +2,7 @@
 #   id,
 #   name
 
-require 'activerecord'
+require 'active_record'
 
 class IndustryMigration < ActiveRecord::Migration
   def change

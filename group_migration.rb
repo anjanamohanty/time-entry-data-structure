@@ -3,7 +3,7 @@
 #   id,
 #   name
 
-require 'activerecord'
+require 'active_record'
 
 class GroupMigration < ActiveRecord::Migration
   def change

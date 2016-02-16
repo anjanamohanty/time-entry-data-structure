@@ -1,4 +1,4 @@
-require 'activerecord'
+require 'active_record'
 
 class TaskMigration < ActiveRecord::Migration
   def change

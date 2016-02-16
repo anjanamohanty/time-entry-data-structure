@@ -11,7 +11,7 @@
 #   date_of_work,
 #   length_of_work
 
-require 'activerecord'
+require 'active_record'
 
 class TimeEntryMigration < ActiveRecord::Migration
   def change

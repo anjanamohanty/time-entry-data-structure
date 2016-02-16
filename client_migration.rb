@@ -4,7 +4,7 @@
 #   name,
 #   industry_id
 
-require 'activerecord'
+require 'active_record'
 
 class ClientMigration < ActiveRecord::Migration
   def change

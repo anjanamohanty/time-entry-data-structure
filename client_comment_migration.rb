@@ -6,7 +6,7 @@
 #   date,
 #   comment
 
-require 'activerecord'
+require 'active_record'
 
 class ClientCommentMigration < ActiveRecord::Migration
   def change

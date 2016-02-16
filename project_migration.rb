@@ -5,7 +5,7 @@
 #   start_date,
 #   client_id
 
-require 'activerecord'
+require 'active_record'
 
 class ProjectMigration < ActiveRecord::Migration
   def change

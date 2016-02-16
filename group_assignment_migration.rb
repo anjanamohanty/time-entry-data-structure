@@ -4,7 +4,7 @@
 #   developer_id,
 #   group_id
 
-require 'activerecord'
+require 'active_record'
 
 class GroupAssignmentMigration < ActiveRecord::Migration
   def change

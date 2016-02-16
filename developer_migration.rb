@@ -5,7 +5,7 @@
 #   email_address,
 #   start_date
 
-require 'activerecord'
+require 'active_record'
 
 class DeveloperMigration < ActiveRecord::Migration
   def change
